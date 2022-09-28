@@ -12,3 +12,23 @@
 .ex-1-square{
   transition:  background-color 2s;
 }
+
+/* ESERCIZIO-2 */
+
+.ex-2-square:active{
+  width: 100%;
+}
+
+.ex-2-square{
+  transition: width 2s;
+}
+
+/* ESERCIZIO-3 */
+
+.ex-3-square:hover{
+  border-radius: 50%;
+}
+
+.ex-3-square{
+  transition: border-radius 0.5s;
+}
