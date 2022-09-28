@@ -32,3 +32,36 @@
 .ex-3-square{
   transition: border-radius 0.5s;
 }
+
+/* ESERCIZIO-4 */
+
+.ex-4-square:hover{
+  opacity: 0;
+}
+
+.ex-4-square{
+  transition: opacity 1s ;
+}
+
+/* ESERCIZIO-5 */
+
+.ex-5-square{
+  transition: all 2s;
+}
+
+.ex-5-square:hover{
+  transform: scale(2);
+}
+
+.ex-5-square:active{
+  transform: scale(0.5);
+}
+
+/* ESERCIZIO-6 */
+
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+
+
