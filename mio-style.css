@@ -98,7 +98,7 @@
 
 /* ESERCIZIO-10 */
 
-.ex-10-icon {
+.ex-10-icon{
   animation-name: rotazione;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -112,3 +112,75 @@
 }
 
 /* ESERCIZIO-11 */
+
+.ex-11-icon:hover{
+  animation-name: semi-rotazione;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes semi-rotazione{
+  0%{
+    transform: rotate(0deg)
+  }
+
+  80%{
+    transform: rotate(320deg)
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+/* ESERCIZIO-12 */
+
+
+.ex-12-button:hover .ex-12-top-white{
+  animation-duration: 2s;
+  animation-name: linea-top;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation-duration: 2s;
+  animation-name: linea-bottom;
+}
+
+@keyframes linea-top{
+  0%{
+    top: -10px;
+    left: 10%;
+  }
+
+  50%{
+    top: -10px;
+    left: 70%;
+  }
+
+  100%{
+    top: -10px;
+    left: 10%;
+  }
+}
+
+@keyframes linea-bottom{
+  0%{
+    bottom: -10px;
+    right: 20%;
+  }
+
+  50%{
+    bottom: -10px;
+    right: 70%;
+  }
+
+  100%{
+    bottom: -10px;
+    right: 20%;
+  }
+}
+
+/* ESERCIZIO-13 */
+
+.ex-13-button{}
+
